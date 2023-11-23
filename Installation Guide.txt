@@ -1,0 +1,37 @@
+# Installation Guide
+
+***Note: Ensure that both your laptop and phone are connected to the same Wi-Fi network.***
+
+## Step 1: Install IP Webcam App
+
+1. Download and install the [IP Webcam app](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en&gl=US) on your Android phone.
+
+## Step 2: Start the Server
+
+2. Open the IP Webcam app on your phone and select **START SERVER**.
+
+## Step 3: Note the IP Address
+
+3. ***Note*** the IP link provided by the app (e.g., `http://143.138.23.8080`).
+
+## Step 4: Set Up Arduino
+
+4. Open the `arduino_code.ino` file in the Arduino IDE.
+
+5. Select the preferred pin and COM port. ***Note*** the COM number.
+
+## Step 5: Configure Python Script
+
+6. Open the `main.py` file in your preferred Python IDE (e.g., PyCharm).
+
+7. Update the COM number and IP link according to the values noted earlier.
+
+## Step 6: Run the System
+
+8. Run the Python script and upload the Arduino code.
+
+9. ***Note***: Ensure the connections and configurations are accurate.
+
+10. Enjoy the Banana Grading System!
+
+***Note:*** In case of issues or suggestions, please create an issue on GitHub.
